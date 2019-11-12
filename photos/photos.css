@@ -1,0 +1,14 @@
+img{
+	width: 30%;
+	float:left;/*removes spaces and aligns elements together side by side*/
+	margin: 1.66%;
+}
+p{
+	font-family: Anton;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	border-bottom: 2px solid grey;/*line in bottom*/
+	width:50%;/*upto what extent in screen the line should be drawn*/
+	padding-bottom: 20px;
+}

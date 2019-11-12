@@ -1,0 +1,108 @@
+/*give the body element a background of #bdc3c7*/
+
+body{
+	background:#bdc3c7;
+}
+
+/*make the <h1> element #9b59b6*/
+
+h1{
+	color:#9b59b6;
+}
+
+/* make all <h2> elements orange*/
+
+h2{
+	color:orange;
+}
+
+/*make all <li> elements blue(pick your own hexadecimal blue)*/
+
+li{
+	color:#0040FF;
+}
+
+/*change the background on every paragraph to be yellow*/
+
+p{
+	background: yellow;
+}
+
+/*make all inputs have a 3px red border*/
+
+input{
+	border: 3px solid red;
+}
+
+/*give everything with the class 'hello' a white background*/
+
+.hello{
+	background:white; 
+} 
+
+
+/*give all elements with id 'special'a 2px solid blue*/
+#special{
+	border:2px solid rgb(0,100,200);
+}
+
+/*make all the <p>'s that are nested inside of <div> of 25px font*/
+
+div p{
+	font-size: 25px;
+}
+
+/*make only input with type="text" a gray background*/
+
+input[type="text"]{
+	background: grey;
+}
+
+/*make both <p>'s inside the 3rd<div> a pink background*/
+
+div:nth-of-type(3) p{
+	background: pink;
+}
+
+/*give the 2nd<p> inside the 3rd<div> a 5px white border*/
+
+div:nth-of-type(3) p:nth-of-type(2){
+	border:5px solid white;
+}
+
+/*make the <em> in the 3rd <div> element white and 20px font*/
+
+div:nth-of-type(3) em{
+	color:white;
+	font-size: 20px;
+}
+
+/*make all "checked" checkboxes have left margin of 50px*/
+
+input:checked{
+	margin-left: 50px;
+}
+
+/*make all the <label> elements uppercase without changing html*/
+label{
+	text-transform: uppercase;
+}
+
+/*make the first letter of element id'special'green and 100px font size*/
+
+#special:first-letter{
+	color:green;
+	font-size:100px; 
+}
+
+/*make the <h1> elements color change to blue when hovered over*/
+
+h1:hover{
+	color:blue;
+}
+
+/*make the <a> elements that have been visited to blue*/
+
+a:visited{
+	color:blue;
+} 
